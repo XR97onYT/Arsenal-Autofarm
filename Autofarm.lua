@@ -6,7 +6,7 @@
 ]]
 
 if not game:IsLoaded() then game.Loaded:Wait() end
-local versionId = 10165
+local versionId = 10180
 
 local Player = game:GetService("Players").LocalPlayer
 repeat task.wait() until Player:FindFirstChild("DataLoaded")
